@@ -1,0 +1,14 @@
+@article{mukund_varma_2021_5217602,
+  author       = {Mukund Varma and
+                  Nishant Prabhu},
+  title        = {{[Re] On the Relationship between Self-Attention 
+                   and Convolutional Layers}},
+  journal      = {ReScience C},
+  year         = 2021,
+  volume       = 7,
+  number       = 1,
+  pages        = {\#6},
+  month        = aug,
+  doi          = {10.5281/zenodo.5217602},
+  url          = {https://doi.org/10.5281/zenodo.5217602}
+}

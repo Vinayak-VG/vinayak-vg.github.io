@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Vinayak's Homepage</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="Vinayak">
+        <meta name="description" content="Vinayak's Homepage">
+        <!-- <meta name="google-site-verification" content="wGTO-1kOrvXIfMt0ulX7DQtDQl5YcSvMQO8eyZYUmLM" /> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+            <div class="container-fluid">
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pubs">Publications</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Academic Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class='container'>
+            <span class="anchor" id="home"></span>
+            <div class="section-gap" id="home"></div>
+            <div class="row">
+                <div class="col-4 col-md-2">
+                    <img src="imgs/profile.jpeg" style="width: 100%;">
+                </div>
+                <div class="col-8 px-1 col-md-10">
+                    <h3>Vinayak Gupta</h3>
+                    <p>
+                        <small>Email: vinayakguptapokal at gmail dot com</small><br>
+                        <a href="https://vinayak-vg.github.io">Google Scholar</a> |
+                        <a href="https://twitter.com/Vinayak22Gupta">Twitter</a> |
+                        <a href="https://github.com/Vinayak-VG">GitHub</a>
+                    </p>
+                    <p style="font-size: calc(9px + .3vw); margin-top: -12px;">
+                        <!-- Hi 👋! I'm an incoming Ph.D. student at <a href="https://cse.ucsd.edu/">UC San Diego</a>, 
+                        jointly advised by <a href="https://cseweb.ucsd.edu/~ravir/">Prof. Ravi Ramamoorthi</a> 
+                        and <a href="http://ai.ucsd.edu/~haosu/">Prof. Hao Su</a>.
+                        I received my bachelors degree from <a href="https://www.iitm.ac.in/">IIT Madras</a>. -->
+                        Hi 👋! I'm a Undergraduate student at Indian Institute of Technology, Madras. 
+                        I currently work under Prof Kaushik Mitra in the Computation Imaging Lab. 
+
+                    </p>
+                </div>
+            </div>
+            <span class="anchor" id="pubs"></span>
+            <div class="section-gap" id="pubs"></div>
+            <h3>Publications</h3>
+            <hr>
+            <div class="row align-items-center" onmouseout="one2345_stop()" onmouseover="one2345_start()">
+                <div class="col-sm-4">
+                    <div class="one">
+                        <div class="two" id='one2345'>
+                            <video width=100% height=100% muted autoplay loop>
+                                <source src="imgs/one2345_after.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <img src="imgs/one2345_before.png">
+                    </div>
+                    <script type="text/javascript">
+                        function one2345_start() {
+                            document.getElementById('one2345').style.opacity = "1";
+                        }
+                        
+                        function one2345_stop() {
+                            document.getElementById('one2345').style.opacity = "0";
+                        }
+                        one2345_stop()
+                    </script>
+                </div>
+                <div class="col-sm-8">
+                    <b>GSN: Generalisable Segmentation of Neural Radiance Fields</b>
+                    <br>
+                    <b>Mukund Varma T</b>,&nbsp;
+                    <a href="https://rahulgoel.xyz/">Rahul Goel</a>,&nbsp;
+                    <a href="https://dhawal1939.github.io/">Dhawal Sirikonda*</a>,&nbsp;
+                    <a href="https://scholar.google.co.in/citations?hl=en&user=3HKjt_IAAAAJ&view_op=list_works&sortby=pubdate">P J Narayana</a>,&nbsp;
+                    AAAI 2024.&nbsp;<br>
+                    <a href="https://vinayak-vg.github.io/GSN/">[webpage]</a>&nbsp;
+                    <a href="https://vinayak-vg.github.io/GSN/">[paper]</a>&nbsp;
+                    <a href="https://github.com/Vinayak-VG/GSN">[code]</a>&nbsp;
+                    <a href="https://vinayak-vg.github.io/GSN/">[demo]</a>&nbsp;
+                    <!-- <a href="#">[bib]</a>&nbsp; -->
+                    <!-- <img src="https://img.shields.io/github/stars/One-2-3-45/One-2-3-45?style=social&logo=github" style="width: 90px;"> -->
+                </div>
+            </div>
+            <br>
+            <div class="row align-items-center" onmouseout="u2nerf_stop()" onmouseover="u2nerf_start()">
+                <div class="col-sm-4">
+                    <div class="one">
+                        <div class="two" id='u2nerf_image'>
+                            <img src='imgs/u2nerf_after.png'>
+                        </div>
+                        <img src='imgs/u2nerf_before.png'>
+                    </div>
+                    <script type="text/javascript">
+                        function u2nerf_start() {
+                            document.getElementById('u2nerf_image').style.opacity = "1";
+                        }
+                        function u2nerf_stop() {
+                        document.getElementById('u2nerf_image').style.opacity = "0";
+                        }
+                        u2nerf_stop()
+                    </script>
+                </div>
+                <div class="col-sm-8">
+                    <b>U2NeRF: Unsupervised Underwater Image Restoration and Neural Radiance Fields</b>
+                    <br>
+                    <b>Vinayak Gupta*</b>,&nbsp;
+                    <a href="https://manoj-152.github.io/">Manoj S*</a><br/>
+                    <a href="https://mukundvarmat.github.io/">Mukund Varma T*</a><br/>
+                    <a href="https://www.ee.iitm.ac.in/kmitra/">Kaushik Mitra</a><br/>
+                    Under Review.&nbsp;
+                </div>
+            </div>
+            <br>
+            
+            <span class="anchor" id="service"></span>
+            <div class="section-gap" id="service"></div>
+            <h3>Academic Service</h3>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <ul>
+                        <!-- <li>
+                            <b>Conference Reviewer: </b><br>
+                            NeurIPS (2022, 2023), ICLR (2023), ICCV (2023).
+                        </li>
+                        <li>
+                            <b>Journal Reviewer: </b><br>
+                            Computers and Graphics (2021, 2022).
+                        </li>
+                        <li> -->
+                            <b>Teaching Assistant (IIT Madras): </b><br>
+                            <ul>
+                                <!-- <li>CS6700 Reinforcement Learning, Spring 2023.</li> -->
+                                <li>EE5180 Introduction to Machine Learning, Spring 2023.</li>
+                                <!-- <li>EE5179 Deep Learning for Imaging, Fall 2022.</li> -->
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <span class="anchor" id="about"></span>
+            <div class="section-gap" id="about"></div>
+            <h3>About Me</h3>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <p>
+                        I am an incoming Ph.D. student in the <a href="https://cse.ucsd.edu/">Department of Computer Science and Engineering</a> at the <a href="https://www.ucsd.edu/">University of California San Diego</a>, 
+                        where I will be co-advised by <a href="https://cseweb.ucsd.edu/~ravir/">Prof. Ravi Ramamoorthi</a> and <a href="http://ai.ucsd.edu/~haosu/">Prof. Hao Su</a>.
+                        My current research interests lie at the intersection of computer vision, computer graphics and machine learning, specifically to facilitate high quality 3D reconstructions and semantic understanding from multiple view points. 
+                        I am lucky to be supported by the Jacobs School of Engineering Fellowship, and the SHORE Fellowship.
+                    </p>
+                    <p>
+                        Before that, I graduated from <a href="https://www.iitm.ac.in/">IIT Madras</a>, where I completed my (joint) bachelors and masters degree, advised by <a href="http://www.cse.iitm.ac.in/~ravi/index.html">Prof. Balaraman Ravindran</a>. 
+                        At IIT Madras, I was also associated with
+                        the Advanced Geometric Computing Lab (hosts: <a href="https://ed.iitm.ac.in/~raman/">Prof. M Ramanathan</a>, <a href="https://www.linkedin.com/in/dimple-shajahan/">Prof. Dimple Shajahan</a>), and 
+                        the Computational Imaging Lab (host: <a href="https://www.ee.iitm.ac.in/kmitra/">Prof. Kaushik Mitra</a>). 
+                        During my undergraduate, I was very fortunate to have spent time at
+                        the Visual Informatics Group at UT Austin (hosts: <a href="https://express.adobe.com/page/CAdrFMJ9QeI2y/">Prof. Zhangyang (Atlas) Wang</a>, (now Prof. 🎉) <a href="https://tianlong-chen.github.io/">Tianlong Chen</a>),  
+                        <font style="color:#4285F4">G</font><font style="color:#DB4437">o</font><font style="color:#F4B400">o</font><font style="color:#4285F4">g</font><font style="color:#0F9D58">l</font><font style="color:#DB4437">e</font> Research (hosts: <a href="https://vsubhashini.github.io/">Subhashini Venugopalan</a>, <a href="https://research.google/people/105277/">Shanqing Cai</a>, <a href="https://sites.google.com/view/varungulshan/home">Varun Gulshan</a>), 
+                        <font style="color:#FA0F00">Adobe</font> Research (hosts: <a href="https://scholar.google.com/citations?user=cOvjHL0AAAAJ&hl=en">Mayur Hemani</a>, <a href="https://scholar.google.co.in/citations?user=N6J7J4IAAAAJ&hl=en">Mausoom Sarkar</a>, <a href="https://scholar.google.com/citations?user=n8iUBg8AAAAJ&hl=en">Balaji K</a>), and 
+                        <font style="color:#76b900">Nvidia</font> (host: <a href="https://scholar.google.co.in/citations?user=svhYTNoAAAAJ&hl=en">Pallab Maji</a>).
+                    </p>
+                    <p>
+                        I am always happy to discuss / collaborate on related areas. Feel free to reach out to me via <a href="#home">email</a>.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <p style="text-align:center;font-size:small;">Template adapted from <a href="https://yinboc.github.io/">Yinbo Chen</a></p>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    </body>
+</html>

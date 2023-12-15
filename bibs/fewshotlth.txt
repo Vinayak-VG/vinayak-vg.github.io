@@ -1,0 +1,9 @@
+@inproceedings{
+    t2022sparse,
+    title={Sparse Winning Tickets are Data-Efficient Image Recognizers},
+    author={Mukund Varma T and Xuxi Chen and Zhenyu Zhang and Tianlong Chen and Subhashini Venugopalan and Zhangyang Wang},
+    booktitle={Advances in Neural Information Processing Systems},
+    editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+    year={2022},
+    url={https://openreview.net/forum?id=wfKbtSjHA6F}
+}

@@ -1,0 +1,10 @@
+@ARTICLE{9376774,
+    author={Shajahan, Dimple A. and Varma T., Mukund and Muthuganapathy, Ramanathan},
+    journal={IEEE Geoscience and Remote Sensing Letters}, 
+    title={Point Transformer for Shape Classification and Retrieval of Urban Roof Point Clouds}, 
+    year={2022},
+    volume={19},
+    number={},
+    pages={1-5},
+    doi={10.1109/LGRS.2021.3061422}
+}
