@@ -1,0 +1,7 @@
+@inproceedings{
+    gntmove2023,
+    title={Enhancing Ne{RF} akin to Enhancing {LLM}s: Generalizable Ne{RF} Transformer with Mixture-of-View-Experts},
+    author={Wenyan Cong and Hanxue Liang and Peihao Wang and Zhiwen Fan and Tianlong Chen and Mukund Varma and Yi Wang and Zhangyang Wang},
+    booktitle={ICCV},
+    year={2023}
+}
