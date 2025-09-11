@@ -1,0 +1,6 @@
+@article{gupta2024paintscene4d,
+  title={PaintScene4D: Consistent 4D scene generation from text prompts},
+  author={Gupta, Vinayak and Man, Yunze and Wang, Yu-Xiong},
+  journal={arXiv preprint arXiv:2412.04471},
+  year={2024}
+}

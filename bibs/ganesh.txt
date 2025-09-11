@@ -1,0 +1,8 @@
+@inproceedings{madavan2025ganesh,
+  title={GANESH: Generalizable NeRF for Lensless Imaging},
+  author={Madavan, Rakesh Raj and Kaimal, Akshat and Gupta, Vinayak and Choudhary, Rohit and Shanmuganathan, Chandrakala and Mitra, Kaushik and others},
+  booktitle={2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+  pages={9499--9508},
+  year={2025},
+  organization={IEEE}
+}

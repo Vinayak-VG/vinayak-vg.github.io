@@ -1,0 +1,9 @@
+@inproceedings{gupta2024gsn,
+  title={GSN: Generalisable segmentation in neural radiance field},
+  author={Gupta, Vinayak and Goel, Rahul and Dhawal, Sirikonda and Narayanan, PJ},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={3},
+  pages={2013--2021},
+  year={2024}
+}

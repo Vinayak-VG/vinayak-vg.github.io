@@ -1,0 +1,8 @@
+@inproceedings{teja2025photonsplat,
+  title={PhotonSplat: 3D Scene Reconstruction and Colorization from SPAD Sensors},
+  author={Teja, Sai Sri and Chintalapati, Sreevidya and Gupta, Vinayak and Varma, T Mukund and Lee, Haejoon and Sankaranarayanan, Aswin and Mitra, Kaushik},
+  booktitle={2025 IEEE International Conference on Computational Photography (ICCP)},
+  pages={1--17},
+  year={2025},
+  organization={IEEE}
+}
